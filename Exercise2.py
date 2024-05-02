@@ -3,12 +3,13 @@
 #
 #
 #
-attendees = int(input("Enter number of attendees:  "))
+# attendees = int(input("Enter number of attendees:  "))
 
-if attendees > 100:
-    print("large hall")
-    if attendees < 100:
-        print("conference room")
-    else:
-        print("Consider a different venue.") 
+# if attendees > 100:
+#     print("large hall")
+#     if attendees < 100:
+#         print("conference room")
+    
 
+attendees = int(input("Enter number of attendees: "))
+print("large hall") if attendees > 100 else print("conference room")
